@@ -12,8 +12,8 @@ It requires an installation of `requests`
 Here's what it does when executed as a script (change `SOURCE_FILENAME` and
 `TARGET_FILENAME` in the source code directly to adapt to your system):
 
-1. Go through the Bibtex file and check whether each entry has an URL with a
-   Pubmed link (`http://www.ncbi.nlm.nih.gov/pubmed/...`)
+1. Go through the Bibtex file and check for each entry whether it has an URL
+   with a Pubmed link (`http://www.ncbi.nlm.nih.gov/pubmed/...`)
 2. Check whether [PubMedCentral](https://www.ncbi.nlm.nih.gov/pmc/) has a PDF
    for this article (following up redirections if necessary)
 3. If yes, replace the URL in the Bibtex file with the URL to the PDF; if no,
